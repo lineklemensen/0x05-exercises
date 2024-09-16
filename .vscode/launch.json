@@ -2,17 +2,17 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Build and Debug",
+      "name": "Build and Debug File ",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/build/program.out",
+      "program": "${workspaceFolder}/build/${fileBasenameNoExtension}.out",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",
       "environment": [],
       "externalConsole": false,
       "MIMode": "gdb",
-      "preLaunchTask": "build_all",
+      "preLaunchTask": "build_current_file",
     },
   ]
 }
