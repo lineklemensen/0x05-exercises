@@ -2,7 +2,7 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "build_current_file",
+      "label": "build_and_debug",
       "type": "shell",
       "command": "g++",
       "args": [
