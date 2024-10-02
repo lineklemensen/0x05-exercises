@@ -1,8 +1,6 @@
 # Exercise 0x00
 Write a program that returns the first letter to appear twice in a string composed with an alphabet containing only lowercase english letters (`a`-`z` or `0x61`-`0x7A` in ASCII).
 
-_Hint: It would be a good idea to read up on <string> [1] and <vector> [2] from the C++ Standard Library, that were introduced in a previous lecture._
-
 ## Exercise 0x01
 What is the string contains no repeats?:
 - `Uncopyrightable` (adjective): Not able to be protected by copyright
