@@ -1,5 +1,4 @@
-
-# Exercise 0x00 First Letter Twice
+# Exercise 0x00
 Write a program that returns the first letter to appear twice in a string composed with an alphabet containing only lowercase english letters (`a`-`z` or `0x61`-`0x7A` in ASCII).
 
 _Hint: It would be a good idea to read up on <string> [1] and <vector> [2] from the C++ Standard Library, that were introduced in a previous lecture._
@@ -18,7 +17,7 @@ Here are some example output
 `'e', found at indices [1, 6]`
 - `Uncopyrightable` produces the output `'Uncopyrightable' contains no duplicate characters`
 
-# Exercise 0x10 Pangrams
+# Exercise 0x10
 A pangram is a string, which contains at least one instance of each character in a given
 alphabet.
 
