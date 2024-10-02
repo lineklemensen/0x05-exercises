@@ -2,32 +2,33 @@
 # Exercise 0x00 First Letter Twice
 Write a program that returns the first letter to appear twice in a string composed with an alphabet containing only lowercase english letters (`a`-`z` or `0x61`-`0x7A` in ASCII).
 
-_Hint #1: It would be a good idea to read up on <string> [1] and <vector> [2] from the C++ Standard Library, that were introduced in a previous lecture._
+_Hint: It would be a good idea to read up on <string> [1] and <vector> [2] from the C++ Standard Library, that were introduced in a previous lecture._
 
-# Exercise 0x01
-What if the string contains no repeats?
-Exercise 0x02
+## Exercise 0x01
+What is the string contains no repeats?:
+- `Uncopyrightable` (adjective): Not able to be protected by copyright
+- `Dermatoglyphics` (noun): The study of skin patterns/markings, such as fingerprints
+
+## Exercise 0x02
 Modify the program, so it prints the indices of the found letters to the console (also known as
 stdout, or "standard output")
-Examples
-Exercise 0x10 Pangrams
+
+Here are some example output
+- `Welcome to the wonderful world of software engineering` produces the output
+`'e', found at indices [1, 6]`
+- `Uncopyrightable` produces the output `'Uncopyrightable' contains no duplicate characters`
+
+# Exercise 0x10 Pangrams
 A pangram is a string, which contains at least one instance of each character in a given
 alphabet.
-Test data:
 
-# Exercise 0x11
-Uncopyrightable (adjective): Not able to be protected by copyright
-Dermatoglyphics (noun): The study of skin patterns/markings, such as fingerprints
-Welcome to the wonderful world of software engineering produces the output
-'e', found at indices `[1, 6]`
-
-Uncopyrightable produces the output `'Uncopyrightable' contains no duplicate
-characters`
-
+Here are some test data:
 - `A quick brown fox jumps over the lazy dog.`
-- `When zombies arrive quickly, fax judge pat.`
+- `When zombies arrive quickly, fax judge Pat.`
 - `The five boxing wizards jump quickly.`
 - `Amazingly few discotheques provide jukeboxes.`
+
+## Exercise 0x11
 
 Modify the program from to only account for printable characters, excluding numbers, special characters and whitespaces.
 
