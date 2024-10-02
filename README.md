@@ -9,7 +9,7 @@ What is the string contains no repeats?:
 Modify the program from Exercise 0x00 to handle the case, where there are no repeat characters in the input string.
 
 ## Exercise 0x02
-Modify the program from Exercise 0x02, so it prints the positions (indices) of the letter to the console.
+Modify the program from Exercise 0x01, so it prints the positions (indices) of the letter to the console.
 
 Here are some example output:
 - `Welcome to the wonderful world of software engineering` produces the output
@@ -36,6 +36,14 @@ _Hint Is it possible to calculate a character using an offset and an upper and a
 Implement a card game where the user is tasked with guessing whether the next card has a higher or lower value than the previous card.
 
 The game flow shall be as described:
+1. Select a card at random
+2. Display card to user
+3. Prompt user for guess ('h' for higher, 'l' for lower)
+4. Check input against the user selection
+5. Print result
+6. Go back to step one
+
+Example output
 ```console
 $ ./card_game.o
 The game presents you with a random card
@@ -52,13 +60,6 @@ Choose higher(h) or lower(l): q
 $
 ``` 
 
-What would be good candidates for enumerations?
-1. Select a card at random
-2. Display card to user
-3. Prompt user for guess ('h' for higher, 'l' for lower)
-4. Check input against the user selection
-5. Print result
-6. Go back to step one
 
 Here is a proposal for a header file to get you started:
 
@@ -72,6 +73,8 @@ void print(string, Rank, Suit);
 string to_string(Rank);
 string to_string(Suit);
 ```
+
+What would be good candidates for enumerations?
 
 The following code is provided to generate uniformly distributed integers for the cards.
 ```cpp
