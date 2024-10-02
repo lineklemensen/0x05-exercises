@@ -6,11 +6,12 @@ What is the string contains no repeats?:
 - `Uncopyrightable` (adjective): Not able to be protected by copyright
 - `Dermatoglyphics` (noun): The study of skin patterns/markings, such as fingerprints
 
-## Exercise 0x02
-Modify the program, so it prints the indices of the found letters to the console (also known as
-stdout, or "standard output")
+Modify the program from Exercise 0x00 to handle the case, where there are no repeat characters in the input string.
 
-Here are some example output
+## Exercise 0x02
+Modify the program from Exercise 0x02, so it prints the positions (indices) of the letter to the console.
+
+Here are some example output:
 - `Welcome to the wonderful world of software engineering` produces the output
 `'e', found at indices [1, 6]`
 - `Uncopyrightable` produces the output `'Uncopyrightable' contains no duplicate characters`
@@ -27,24 +28,14 @@ Here are some test data:
 
 ## Exercise 0x11
 
-Modify the program from to only account for printable characters, excluding numbers, special characters and whitespaces.
+Modify the program from Exercise 0x10 to only account for printable characters, excluding numbers, special characters and whitespaces.
 
-_Hint Is it possible to calculate a character using an offset and upper and lower bounds?_
+_Hint Is it possible to calculate a character using an offset and an upper and a lower bound (check ASCII.md)?_
 
 # Exercise 0x20 Card game
 Implement a card game where the user is tasked with guessing whether the next card has a higher or lower value than the previous card.
 
-The game flow will shall as described:
-
-Output
-What would be good candidates for enumerations?
-1. Select a card at random
-2. Display card to user
-3. Prompt user for guess ('h' for higher, 'l' for lower)
-4. Check input against the user selection
-5. Print result
-6. Go back to step one
-
+The game flow shall be as described:
 ```console
 $ ./card_game.o
 The game presents you with a random card
@@ -60,6 +51,14 @@ You lost, the random generated card were 6 of Diamonds
 Choose higher(h) or lower(l): q
 $
 ``` 
+
+What would be good candidates for enumerations?
+1. Select a card at random
+2. Display card to user
+3. Prompt user for guess ('h' for higher, 'l' for lower)
+4. Check input against the user selection
+5. Print result
+6. Go back to step one
 
 Here is a proposal for a header file to get you started:
 
