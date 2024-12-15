@@ -4,8 +4,6 @@
 using namespace std;
 
 int main() {
-
-//Exercise 0x00
   //Variable containing the result of the first string used to test the program
   string result1 = letter_seen_twice("Welcome to the wonderful world of software engineering");
 
@@ -25,7 +23,6 @@ int main() {
     cout << "The string does'nt contain any letter more than one..." << endl;
   }
 
-//Exercise 0x01
   //Variable containing the result of the second string used to test the program
   string result2 = letter_seen_twice("Uncopyrightable");
 

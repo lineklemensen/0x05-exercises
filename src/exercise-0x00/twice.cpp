@@ -1,10 +1,12 @@
 #include "twice.h"
 #include <string>
+#include <vector>
+#include <utility>
 
 using namespace std;
 
-// Exercise 0x00 && Exercise 0x01
-string letter_seen_twice(string text) {
+
+pair<char, vector<size_t>> letter_seen_twice(string text) {
   //Outer loop to iterate over each character in the string
   for (size_t i = 0; i < text.length(); ++i) {
     //Inner loop to check all previous characters
