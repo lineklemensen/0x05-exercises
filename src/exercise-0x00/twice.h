@@ -3,6 +3,6 @@
 
 #include <string>
 
-string letter_seen_twice(string text);
+std::string letter_seen_twice(std::string text);
 
 #endif // TWICE_H
