@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
   //Variable containing the result of the first string used to test the program
-  string result1 = letter_seen_twice("Welcome to the wonderful world of software engineering");
+  auto result1 = letter_seen_twice("Welcome to the wonderful world of software engineering");
 
   //Conditional statement to test the function with the first string
 
@@ -17,18 +17,18 @@ int main() {
   The string is the result of the letter_seen_twice function,
   meaning that the string contains the first character to apper twice,
   i.e. if the string is emptry, no character has appeared twice*/
-  if (!result1.empty()) {
-    cout << "The first letter seen twice in the string is: " << result1 << endl;
+  if (!result1.first != '\0') {
+    cout << "The first letter seen twice in the string is: '" << result1.first << "', found at indices [" << result1.second[0] << ", " << result1.second[1] << "]" << endl;
   } else {
     cout << "The string does'nt contain any letter more than one..." << endl;
   }
 
   //Variable containing the result of the second string used to test the program
-  string result2 = letter_seen_twice("Uncopyrightable");
+  auto result2 = letter_seen_twice("Uncopyrightable");
 
   //Conditional statement to test the function with the first string
-  if (!result2.empty()) {
-    cout << "The first letter seen twice in the string is: " << result2 << endl;
+  if (!result2.first != '\0') {
+    cout << "The first letter seen twice in the string is: '" << result2.first << "', found at indices [" << result2.second[0] << ", " << result2.second[1] << "]" << endl;
   } else {
     cout << "The string does'nt contain any letter more than one..." << endl;
   }
