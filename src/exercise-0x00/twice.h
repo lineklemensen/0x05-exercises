@@ -3,6 +3,6 @@
 
 #include <string>
 
-std::string letter_seen_twice(std::string text);
+std::pair<char, std::vector<size_t>> letter_seen_twice(const std::string& text);
 
 #endif // TWICE_H
