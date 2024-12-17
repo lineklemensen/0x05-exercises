@@ -22,6 +22,12 @@ string case_4 = "Hello world!"; //Not a pangram
 
   // Exercise 0x01 - Setup a test for your implementation
   cout << "TEST - Exercise 0x01" << endl;
+  cout << "Case 0: " << (pangram(case_0, true) ? "Yes" : "No") << endl;
+  cout << "Case 1: " << (pangram(case_1, true) ? "Yes" : "No") << endl;
+  cout << "Case 2: " << (pangram(case_2, true) ? "Yes" : "No") << endl;
+  cout << "Case 3: " << (pangram(case_3, true) ? "Yes" : "No") << endl;
+  cout << "Case 4: " << (pangram(case_4, true) ? "Yes" : "No") << endl;
+
 
   return 0;
 }
